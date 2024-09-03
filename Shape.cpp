@@ -50,11 +50,11 @@ int main(){
     Rectangle rectobj;
     rectobj.getLength(10);
     rectobj.getWidth(5);
-    cout<<rectobj.getPerimeter()<<endl;
+    cout<<" Perimeter of Rectangle is "<<rectobj.getPerimeter()<<endl;
     sqobj.getLength(5);
-    cout<<sqobj.getPerimeter()<<endl;
+    cout<<" Perimeter of Square is "<<sqobj.getPerimeter()<<endl;
     sqobj.getLength(10);
-    cout<<circlePerimeter(sqobj)<<endl;
+    cout<<" Perimeter of Circle is "<<circlePerimeter(sqobj)<<endl;
 
     return 0;
 }
